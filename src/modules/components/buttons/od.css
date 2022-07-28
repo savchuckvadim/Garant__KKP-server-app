@@ -1,0 +1,16 @@
+
+
+.od__labelDark , .od__labelLight {
+    border: 10px darkblue;
+    border-style: solid;
+    
+}
+.od__labelDark {
+    /* background-color: black !important; */
+    /* color: white !important; */
+}
+
+.od__labelLight {
+    /* background-color: rgb(218, 22, 22); */
+    /* color: rgb(107, 107, 202); */
+}

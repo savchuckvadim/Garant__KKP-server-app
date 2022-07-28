@@ -1,0 +1,262 @@
+.ellipseWrapper {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ellipse {
+    position: absolute;
+    top: 25%;
+    right: 10px;
+}
+
+.ellipse2 {
+    position: absolute;
+    top: 34.9%;
+    right: 15px;
+    z-index: 100;
+}
+
+.btn__accountant,
+.btn__budget,
+.btn__bigAccountant,
+.btn__bigBudget,
+.btn__lawyer,
+.btn__office,
+.btn__company,
+.btn__companyPro,
+.btn__od,
+.btn__reset
+
+ {
+    
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    transition-property: background-color, transform, color, text-color !important;
+    transition-duration: 0.3s !important;
+    transition-delay: 0.1s !important;
+
+    font-style: bold !important;
+    font-size: 11px !important;
+
+    font-weight: 400 !important;
+    line-height: 22px !important;
+    letter-spacing: -0.3px !important;
+
+    background-position: 36.4vh;
+    background-repeat: no-repeat;
+    margin: 1%;
+    height: 54px;
+   
+
+}
+.btn__modal{
+    
+    /* display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important; */
+    transition-property: background-color, transform, color, text-color !important;
+    transition-duration: 0.3s !important;
+    transition-delay: 0.1s !important;
+
+    font-style: bold !important;
+    font-size: 11px !important;
+
+    font-weight: 400 !important;
+    line-height: 22px !important;
+    letter-spacing: -0.3px !important;
+
+    background-position: 36.4vh;
+    background-repeat: no-repeat;
+    margin: 1%;
+    height: 54px;
+   width: 45vh !important;
+
+}
+.btn__od {
+    width: 100% !important;
+    
+}
+
+.od__label {
+    color: none !important;
+    background-color: none !important;
+}
+
+
+
+.btn__odDrop {
+    width: 100% !important;
+}
+
+.btn__modal {
+    display: none !important;
+
+
+}
+.btn__result__modal {
+    height: 45px;
+
+    display: flex !important;
+    width: 325px !important;
+    margin: 1vhv !important;
+    margin-top: 3vh !important;
+
+}
+
+
+@media (max-width: 1225px) {
+
+    .btn__accountant,
+    .btn__accountantBig,
+    .btn__budget {
+        grid-row-start: 1 !important;
+
+    }
+
+    .btn__budgetBig,
+    .btn__ofice,
+    .btn__lawyer {
+        grid-row-start: 2 !important;
+    }
+
+    .btn__company,
+    .btn__companyPro,
+    .btn__od {
+        grid-row-start: 3 !important;
+
+    }
+
+    .btn__reset {
+
+        grid-row-start: 4 !important;
+        grid-column-start: 1 !important;
+        grid-column-end: 4 !important;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .btn__accountant,
+    .btn__accountantBig {
+        grid-row-start: 1 !important;
+
+    }
+
+    .btn__budget,
+    .btn__budgetBig {
+        grid-row-start: 2 !important;
+    }
+
+    .btn__lawyer,
+    .btn__company {
+        grid-row-start: 3 !important;
+    }
+
+    .btn__ofice,
+    .btn__companyPro {
+        grid-row-start: 4 !important;
+    }
+
+    .btn__reset {
+        grid-row-start: 5 !important;
+        grid-column-start: 1 !important;
+        grid-column-end: 1 !important;
+
+    }
+
+    .btn__od {
+
+        grid-row-start: 5 !important;
+        grid-column-start: 2 !important;
+        grid-column-end: 2 !important;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .btn__accountant,
+    .btn__budget,
+    .btn__bigAccountant,
+    .btn__bigBudget,
+    .btn__lawyer,
+    .btn__office,
+    .btn__company,
+    .btn__companyPro,
+
+    .btn__od,
+    .btn__reset {
+        /* display: block !important; */
+        width: 372px !important;
+
+    }
+
+
+    .btn__modal {
+        display: flex !important;
+        /* width: 98vh !important; */
+        justify-content: center;
+        align-items: center;
+        padding: 0 !important;
+        margin: 0 auto !important;
+
+    }
+
+    .btn__modal--invisible {
+        display: none !important;
+        width: 98%;
+        justify-content: center;
+        align-items: center;
+        padding: 0 !important;
+        margin: 0 auto !important;
+
+    }
+
+
+}
+
+@media (max-width: 322px) {
+    .btn__accountant,
+    .btn__budget,
+    .btn__bigAccountant,
+    .btn__bigBudget,
+    .btn__lawyer,
+    .btn__office,
+    .btn__company,
+    .btn__companyPro,
+
+    .btn__od,
+    .btn__reset {
+
+        width: 275px !important;
+        height: 45px !important;
+
+    }
+
+}
+
+
+.select {
+    height: 50px !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    align-self: flex-end !important;
+    border-radius: 0.5px;
+
+}
+
+.formControl {
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: flex-end !important;
+
+}
